@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="tab.css">
+</head>
+<body>
+    <ul id="js_list" class="js_list">
+        
+    </ul>
+    <script src="jquery.js"></script>
+    <script src="j_tab.js"></script>
+    <script>
+    window.onload = function(){
+        $('#js_list').tab({
+            nav: ['qq','wechat','zhifubao','jd']
+        }).css('fontSize','50px')
+    }
+    </script>
+</body>
+</html>
